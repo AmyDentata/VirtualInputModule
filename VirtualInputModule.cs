@@ -436,8 +436,6 @@ namespace UnityEngine.EventSystems
 			leftData.pointerCurrentRaycast = raycast;
 			m_RaycastResultCache.Clear();
 
-			Debug.Log ("ssCursorPos: " + screenSpaceCursorPosition);
-
 			// copy the apropriate data into right and middle slots
 			PointerEventData rightData;
 			GetPointerData(kMouseRightId, out rightData, true);
